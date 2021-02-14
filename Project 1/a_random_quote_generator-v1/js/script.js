@@ -83,13 +83,7 @@ console.log(getRandomQuote())
 
 function printQuote(){
 
-
-
-  //Call the random quote.
   const quote = getRandomQuote(quotes);
-
-  //Use the returned quote object to build a string of HTML and quote properties.
-  //Then use that string to display a random quote in the browser.
 
   let message = '';
   if (quote.image) {
